@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(46, 59, 57);
+align-items: center;
+justify-content: center;}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 60vh;
+    background-color: rgb(93, 68, 50);
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid rgb(50, 22, 22);
+    box-shadow: 5px 5px rgb(23, 23, 23);
+}
+
+#ateam, #bteam {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px;
+}
+
+.team {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    color:rgb(50, 50, 50);
+}
+
+
+.change {
+    font-size: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 0.5;
+    height: 50px;
+}
+.change:hover {
+    transform:translateY(-3px) scale(1.01);
+
+}
+#b-add, #a-add {
+    background-color: rgb(149, 243, 149);
+    color:rgb(50, 50, 50);
+}
+#b-subtract, #a-subtract {
+    background-color: rgb(252, 98, 93);
+    color:rgb(50, 50, 50);
+}
+
+.score {
+    font-size: 90px;
+    color:rgb(50, 50, 50);
+}
+
+#winner {
+    margin: 16px 0px;
+    font-size: 50px;
+    color: white;
+}
+
+#refresh {
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+#refresh:hover {
+    transform:scale(1.05);
+}

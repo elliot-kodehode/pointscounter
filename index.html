@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Counter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="ateam">
+            <p class="team">TEAM A</p>
+            <p id="a-teamscore" class="score"></p>
+            <div>
+                <button id="a-add" class="change">▲</button>
+                <button id="a-subtract" class="change">▼</button>
+            </div>
+        </div>
+        <div id="bteam">
+            <p class="team">TEAM B</p>
+            <p id="b-teamscore" class="score"></p>
+            <div>
+                <button id="b-add" class="change" >▲</button>
+                <button id="b-subtract" class="change">▼</button>
+            </div>
+        </div>
+    </div>
+    <p id="winner">🎉🎉<span id="winning-team"></span>🎉🎉</p>
+    <button id="refresh">New round!</button>
+</body>
+</html>
